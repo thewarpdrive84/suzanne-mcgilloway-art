@@ -20,7 +20,7 @@ const artworkGroups = {
 
     {
       title: "Cobbled Teal On Elder II",
-      image: "../images/cobbledteal2.jpg",
+      image: "../images/cobbledteal2.JPG",
       alt: "Cobbled Teal On Elder II by Suzanne McGilloway",
       year: "2026",
       medium: "Oil paint on stretched canvas",
@@ -47,7 +47,7 @@ const artworkGroups = {
 
     {
       title: "What The Walls Keep",
-      image: "../images/whatWalls.jpg",
+      image: "../images/whatWalls.JPG",
       alt: "What The Walls Keep by Suzanne McGilloway",
       year: "2025",
       medium: "Oil paint on stretched canvas",
