@@ -1,4 +1,4 @@
-const images = ["../images/cobbledteal.jpg", "../images/cobbledtealAlt.jpg"];
+const images = ["../images/cobbledteal.jpg", "../images/cobbledtealAlt.JPG"];
 
 let currentImage = 0;
 

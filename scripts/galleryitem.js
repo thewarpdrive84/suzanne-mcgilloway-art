@@ -20,7 +20,7 @@ const artworkGroups = {
 
     {
       title: "Cobbled Teal On Elder II",
-      image: "../images/cobbledteal2.JPG",
+      image: "../images/cobbledTeal2.JPG",
       alt: "Cobbled Teal On Elder II by Suzanne McGilloway",
       year: "2026",
       medium: "Oil paint on stretched canvas",
