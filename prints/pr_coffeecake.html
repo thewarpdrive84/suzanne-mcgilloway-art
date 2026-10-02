@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brick Lane Bookshop - Suzanne McGilloway Art</title>
+
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="/scripts/menu.js" defer></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <h1>
+        <a href="/index.html">Suzanne McGilloway Art</a>
+      </h1>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="siteMenu"
+      >
+        <span class="menu-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span class="menu-label">Menu</span>
+      </button>
+
+      <div class="menu-overlay" id="menuOverlay"></div>
+
+      <nav class="side-menu" id="siteMenu" aria-label="Main navigation">
+        <button
+          class="menu-close"
+          id="menuClose"
+          type="button"
+          aria-label="Close navigation menu"
+        >
+          &times;
+        </button>
+
+        <a href="/index.html">Home</a>
+        <a href="/prints.html">Prints</a>
+        <a href="/about.html">About</a>
+        <a href="/news.html">News</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="artwork-detail">
+      <div class="artwork-image">
+        <img
+          src="../images/coffeecake.jpg"
+          alt="Coffee and Cake On Fournier by Suzanne McGilloway"
+        />
+      </div>
+
+      <div class="artwork-info">
+        <h2>Coffee and Cake On Fournier</h2>
+
+        <p>2021</p>
+
+        <p>£160.00</p>
+
+        <p>
+          'Coffee and Cake On Fournier' by Suzanne McGilloway. Limited to a run
+          of 150. Taken from a collection of works based on the Spitalfields
+          area of East London. Limited edition, signed Giclée prints, on
+          Hahnemühle Photo rag 308gsm museum quality, archival cotton paper.
+        </p>
+
+        <p>Image size 20"x16" portrait.</p>
+        <p>With border: Portrait 22.5"x18".</p>
+        <p>Signed and numbered by the artist.</p>
+      </div>
+      <!-- navigation buttons for previous and next prints -->
+      <nav class="galleryitem-navigation" aria-label="Print navigation">
+        <a href="#" class="galleryitem-nav-button" id="previousPrint">
+          <span class="galleryitem-nav-arrow">←</span>
+          <span>
+            <small>Previous Print</small>
+          </span>
+        </a>
+
+        <a href="#" class="galleryitem-nav-button" id="nextPrint">
+          <span>
+            <small>Next Print</small>
+          </span>
+          <span class="galleryitem-nav-arrow">→</span>
+        </a>
+      </nav>
+    </main>
+    <footer>
+      <div class="footer-links">
+        <a
+          href="mailto:suzanne.mcgilloway@gmail.com"
+          class="email-link"
+          aria-label="Email Suzanne McGilloway"
+        >
+          <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <polyline points="3,7 12,13 21,7"></polyline>
+          </svg>
+          Email
+        </a>
+
+        <a
+          href="https://www.instagram.com/livinginclip81/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-link"
+          aria-label="Suzanne McGilloway on Instagram"
+        >
+          <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1"></circle>
+          </svg>
+          Instagram
+        </a>
+      </div>
+      <p>&copy; All Rights Reserved Suzanne McGilloway Art 2026</p>
+    </footer>
+    <script src="../scripts/printnav.js"></script>
+  </body>
+</html>
