@@ -1367,7 +1367,7 @@ footer a:focus-visible {
   }
 
   .site-header {
-    padding: 35px 65px 25px 15px;
+    padding: 70px 15px 25px;
   }
 
   .site-header h1 {
@@ -1375,7 +1375,9 @@ footer a:focus-visible {
   }
 
   .menu-toggle {
+    top: 15px;
     right: 10px;
+    transform: none;
   }
 
   header > nav:not(.side-menu) {
